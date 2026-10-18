@@ -1,0 +1,22 @@
+GITHUB UPLOAD GUIDE
+
+1. Download IBM_SpaceX_Capstone_GitHub_Ready_Bundle.zip.
+2. In Windows File Explorer, right-click the ZIP > Extract All.
+3. Open https://github.com/new and create a PUBLIC repository named:
+   IBM-Data-Science-SpaceX-Capstone
+4. Open the new repository. If using GitHub Desktop, choose File > Add Local Repository and select the extracted ibm_spacex_capstone folder; then commit and Publish repository.
+   OR use the GitHub website's Add file > Upload files and upload the project files. Upload files from inside the extracted folder so the notebooks and scripts are visible individually; uploading only the ZIP is not enough.
+5. Wait until the uploaded files appear in the repository. Copy the URL from the browser address bar, for example:
+   https://github.com/YOUR-USERNAME/IBM-Data-Science-SpaceX-Capstone
+   Replace YOUR-USERNAME with your real username. Do not use this example URL.
+6. Paste the real repository URL in the Coursera submission field.
+7. The presentation PDF currently has a placeholder on its final slide for the repository URL. After creating the repo, update the URL in the PDF before final submission, or send the real URL so a revised PDF can be prepared.
+
+FILES INCLUDED
+- 7 Jupyter notebooks covering API collection, scraping, wrangling, EDA visualization, SQL, Folium, and prediction.
+- scripts/spacex_dash_app.py (Plotly Dash application)
+- scripts/download_course_data.py (downloads the course datasets when internet is available)
+- requirements.txt, README.md, notebook index, and presentation PDF.
+
+IMPORTANT
+These are independently assembled notebooks aligned to the capstone workflow, not the original graded notebooks from your Coursera workspace. Run them from top to bottom and ensure results match before submitting. Dataset download needs an internet connection. No package can guarantee a passing grade; the grader checks the actual files, results, and required URL.
